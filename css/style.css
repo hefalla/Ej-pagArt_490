@@ -1,23 +1,36 @@
 *{  
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    width: 1200px;  /*ancho de la página*/
-    margin: 0 auto;
-    border: 5px dotted #990000;
+    background: url("../images/logo.png") -30px -40px;
+    /* background: url("../images/bsb.jpg");
+    background-size: cover;
+    background-attachment: fixed; */
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
-img{
-    width: 500px; /*ancho de imagen*/
+h1{
+    font-size: 50px;
+    margin: 20px 0;
+    color: #006E96;
 }
 
 /* ------------------------- MENÚ ------------------------- */
 
 nav{
-    background: cyan;
     height: 80px;   /*Alto del menú*/
+    /* border-top: 1px solid #006E96;
+    border-bottom: 1px solid #006E96; */
+    background: #006E96;
+    margin: 20px 0;
+}
+
+nav ul{
+    width: 360px;
+    margin: 0 auto;
 }
 
 nav ul li{
@@ -27,13 +40,14 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;  /*Quita el subrayado de los enlaces*/
-    color: #000;
-    background:darkorange;
+    color: #006E96;
+    background:#FFF;
     line-height: 80px;
     padding: 7px;
-    margin-right: 20px;
+    margin:0 20px;
     border-radius: 5px;
-    box-shadow:5px 5px 5px #000; /*Añade sombra al contenedor*/
+    box-shadow:2px 2px 2px #333; /*Añade sombra al contenedor*/
+    font-weight: bold;
 }
 
 nav ul li a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
@@ -42,29 +56,77 @@ nav ul li a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
     box-shadow: 0 0 0 #000;
 }
 
+section{
+    padding:0 30px 20px;
+}
+
+section div{
+    text-align: center;
+}
+
+section div img{
+    width: 500px; /*ancho de imagen*/
+    margin: 20px;
+}
+
+section p{
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#006E96;
+}
+
+footer{
+    background: #006E96;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
 /* --------------------- IDENTIFICADORES -------------------- */
 
 
 #fondo-header{
-    background:lightblue;
+    text-align: center;
 }
 
 
 /* ------------------------- CLASES ------------------------- */
 
+.principal{
+    width: 1000px;  /*ancho de la página*/
+    margin: 20px auto;
+    border: 2px solid #006E96;
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 10px;
+    background: #FFF;
+}
+
 .imgTitulo{
-    width: 1200px;
+    width: 400px;
 }
 
 .otra{
     width: 700px;
 }
 
-.gris{
-    background: #999;
-    width: 800px;
+.imgCenter, .centrado{
+    text-align: center;
+    margin:10px;
 }
 
-.imgCenter{
-    text-align: center;
+.disc img{
+    width: 200px;
+}
+
+.disc li{
+    margin: 20px;
 }
