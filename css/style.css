@@ -14,8 +14,9 @@ body{
 
 h1{
     font-size: 50px;
-    margin: 20px 0;
+    margin: 91px 79px;
     color: #006E96;
+    text-shadow: 3px 3px 3px #999;
 }
 
 /* ------------------------- MENÚ ------------------------- */
@@ -69,10 +70,6 @@ section div img{
     margin: 20px;
 }
 
-section p{
-    text-align: justify;
-}
-
 h2{
     text-align: center;
     font-size: 30px;
@@ -98,6 +95,10 @@ span{
     text-align: center;
 }
 
+#fondo-header h1{
+    float: right;
+}
+
 
 /* ------------------------- CLASES ------------------------- */
 
@@ -112,6 +113,14 @@ span{
 
 .imgTitulo{
     width: 400px;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #999;
+}
+
+.historia p{
+    text-align: justify;
 }
 
 .otra{
@@ -128,5 +137,35 @@ span{
 }
 
 .disc li{
-    margin: 20px;
+    margin: 20px 65px 20px 47px;
+    list-style: none;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.flotante{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.ParrF{
+    padding-top: 65px;
+    padding-left: 20px;
+}
+
+.discos{
+    float: left;
+}
+
+.discos a{
+    text-decoration: none;
+    color: #000;
+}
+
+.discos a:hover{
+    color: #006E96;
 }
