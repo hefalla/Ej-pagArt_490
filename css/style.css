@@ -30,7 +30,7 @@ nav{
 }
 
 nav ul{
-    width: 360px;
+    width: 490px;
     margin: 0 auto;
 }
 
@@ -123,8 +123,25 @@ span{
     text-align: justify;
 }
 
-.otra{
-    width: 700px;
+.imgF{
+    width: 46%;
+}
+
+.fIzq{
+	float: left;
+}
+
+.fDer{
+	float: right;
+}
+
+.textF{
+    width: 45%;
+	margin: 20px;
+}
+
+.textF p{
+	margin-bottom: 20px;
 }
 
 .imgCenter, .centrado{
@@ -146,16 +163,6 @@ span{
     clear: both;
 }
 
-.flotante{
-    float: left;
-    width: 50%;
-    margin-top: 20px;
-}
-
-.ParrF{
-    padding-top: 65px;
-    padding-left: 20px;
-}
 
 .discos{
     float: left;
@@ -168,4 +175,55 @@ span{
 
 .discos a:hover{
     color: #006E96;
+}
+
+form{
+	margin:30px;
+	background: #006E96;
+	color: #FFF;
+	padding: 20px;
+	box-shadow: 3px 3px 3px #333;
+	border-radius: 5px;
+}
+
+.izq, .der{
+    float: left;
+	width: 48%;
+	text-align: left;
+}
+
+.izq{
+	margin-right: 4%;
+}
+
+.cont label{
+	width:auto;
+}
+
+.cont input, textarea{
+	width: 100%;
+	margin:10px 0;
+	padding: 7px;
+}
+
+textarea{
+	height: 100px;
+}
+
+.cont .boton{
+	text-align: center;
+}
+.cont input[type="submit"]{
+	width: 200px;
+	border:none;
+	box-shadow: 3px 3px 3px #333;
+	border-radius: 5px;
+	color: #006E96;
+	font-weight: bold;
+}
+
+.cont input[type="submit"]:hover{
+	cursor:pointer;
+	background: black;
+	color: #FFF;
 }
